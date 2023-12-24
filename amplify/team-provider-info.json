@@ -1,0 +1,44 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-matasdemo-staging-84221-authRole",
+      "UnauthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasdemo-staging-84221-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasdemo-staging-84221-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-matasdemo-staging-84221-deployment",
+      "UnauthRoleName": "amplify-matasdemo-staging-84221-unauthRole",
+      "StackName": "amplify-matasdemo-staging-84221",
+      "StackId": "arn:aws:cloudformation:eu-west-1:698601683692:stack/amplify-matasdemo-staging-84221/5ae799e0-a238-11ee-ae16-0a4580c05ef1",
+      "AmplifyAppId": "d1xkryp33e9ee6"
+    },
+    "categories": {
+      "function": {
+        "LambdaMatasDemo": {
+          "deploymentBucketName": "amplify-matasdemo-staging-84221-deployment",
+          "s3Key": "amplify-builds/LambdaMatasDemo-34772b36314d54507141-build.zip"
+        }
+      },
+      "api": {
+        "api4f37576f": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-matasdemo-prod-135127-authRole",
+      "UnauthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasdemo-prod-135127-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasdemo-prod-135127-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-matasdemo-prod-135127-deployment",
+      "UnauthRoleName": "amplify-matasdemo-prod-135127-unauthRole",
+      "StackName": "amplify-matasdemo-prod-135127",
+      "StackId": "arn:aws:cloudformation:eu-west-1:698601683692:stack/amplify-matasdemo-prod-135127/c9392ed0-a252-11ee-b160-066b8fe5e35f",
+      "AmplifyAppId": "d1xkryp33e9ee6"
+    },
+    "categories": {
+      "function": {
+        "LambdaMatasDemo": {}
+      }
+    }
+  }
+}
