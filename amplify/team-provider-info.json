@@ -1,24 +1,24 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-matasapp-staging-121534-authRole",
-      "UnauthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasapp-staging-121534-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasapp-staging-121534-authRole",
+      "AuthRoleName": "amplify-matasdemo-staging-121534-authRole",
+      "UnauthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasdemo-staging-121534-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::698601683692:role/amplify-matasdemo-staging-121534-authRole",
       "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-matasapp-staging-121534-deployment",
-      "UnauthRoleName": "amplify-matasapp-staging-121534-unauthRole",
-      "StackName": "amplify-matasapp-staging-121534",
-      "StackId": "arn:aws:cloudformation:eu-west-1:698601683692:stack/amplify-matasapp-staging-121534/2587ed10-9d9f-11ee-becb-0ae331fff54d",
+      "DeploymentBucketName": "amplify-matasdemo-staging-121534-deployment",
+      "UnauthRoleName": "amplify-matasdemo-staging-121534-unauthRole",
+      "StackName": "amplify-matasdemo-staging-121534",
+      "StackId": "arn:aws:cloudformation:eu-west-1:698601683692:stack/amplify-matasdemo-staging-121534/2587ed10-9d9f-11ee-becb-0ae331fff54d",
       "AmplifyAppId": "d2ts5ilr7mrb9a"
     },
     "categories": {
       "auth": {
-        "matasapp53e85a30": {}
+        "matasdemo53e85a30": {}
       },
       "function": {
-        "LambdaMatasApp": {
-          "deploymentBucketName": "amplify-matasapp-staging-121534-deployment",
-          "s3Key": "amplify-builds/LambdaMatasApp-6b68647a4e4a63725234-build.zip"
+        "Lambdamatasdemo": {
+          "deploymentBucketName": "amplify-matasdemo-staging-121534-deployment",
+          "s3Key": "amplify-builds/Lambdamatasdemo-6b68647a4e4a63725234-build.zip"
         }
       }
     }

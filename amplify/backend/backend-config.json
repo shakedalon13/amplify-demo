@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "LambdaMatasApp"
+          "resourceName": "Lambdamatasdemo"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,7 +16,7 @@
     }
   },
   "auth": {
-    "matasapp53e85a30": {
+    "matasdemo53e85a30": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -42,26 +42,26 @@
     }
   },
   "function": {
-    "LambdaMatasApp": {
+    "Lambdamatasdemo": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_LambdaMatasApp_deploymentBucketName": {
+    "AMPLIFY_function_Lambdamatasdemo_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "LambdaMatasApp"
+          "resourceName": "Lambdamatasdemo"
         }
       ]
     },
-    "AMPLIFY_function_LambdaMatasApp_s3Key": {
+    "AMPLIFY_function_Lambdamatasdemo_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "LambdaMatasApp"
+          "resourceName": "Lambdamatasdemo"
         }
       ]
     }

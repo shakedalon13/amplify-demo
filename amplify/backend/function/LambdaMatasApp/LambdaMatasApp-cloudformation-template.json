@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "LambdaMatasApp",
+            "Lambdamatasdemo",
             {
               "Fn::Join": [
                 "",
                 [
-                  "LambdaMatasApp",
+                  "Lambdamatasdemo",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "matasappLambdaRoledc1c23ef",
+            "matasdemoLambdaRoledc1c23ef",
             {
               "Fn::Join": [
                 "",
                 [
-                  "matasappLambdaRoledc1c23ef",
+                  "matasdemoLambdaRoledc1c23ef",
                   "-",
                   {
                     "Ref": "env"
